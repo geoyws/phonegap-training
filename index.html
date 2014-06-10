@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web API Training</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="js/jquery-2.1.1.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/jquery.mobile-1.4.2.js"></script>
+        <link href="css/style.css" rel="stylesheet" />
+        <link href="css/jquery.mobile-1.4.2.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div data-role="page">
+            <div class="ui-content" role="main">
+                <h1>Students</h1>
+                <div id="studentTable"></div>
+                <button class="crudButton" id="addStudentButton" onclick="addStudentFields()">Add Student</button>
+                <button class="crudButton" id="updateStudentsButton" onclick="updateStudentFields()">Update Students</button>
+                <button class="crudButton" id="deleteStudentsButton" onclick="deleteStudentsFields()">Delete Students</button>
+                <!--<button onclick="test()">Test</button>-->
+            </div>
+        </div>
+    </body>
+</html>
